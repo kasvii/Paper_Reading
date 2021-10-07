@@ -13,7 +13,9 @@ The record of paper reading
 - [x] [Robust 3D Self-portraits in Seconds](./robust)
   ![robust](./covers/robust.png)
 
-
+## Multi-agent Reinforcement Learning
+- [x] [Learning Individually Inferred Communication for Multi-Agent Cooperation](./agent)
+  ![agent](./covers/agent.png)
 
 ## Contact to me
 
