@@ -17,6 +17,10 @@ The record of paper reading
 - [x] [Learning Individually Inferred Communication for Multi-Agent Cooperation](./agent)
   ![agent](./covers/agent.png)
 
+- [x] [DeepCap_Monocular Human Performance Capture Using Weak Supervision](./Deep)
+
+  ![DeepCap](./covers/DeepCap.png)
+
 ## Contact to me
 
 - Emain：[youyx@stu.pku.edu.cn](mailto:youyx@stu.pku.edu.cn)
