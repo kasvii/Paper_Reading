@@ -13,13 +13,13 @@ The record of paper reading
 - [x] [Robust 3D Self-portraits in Seconds](./robust)
   ![robust](./covers/robust.png)
 
+- [x] [DeepCap_Monocular Human Performance Capture Using Weak Supervision](./Deep)
+  ![DeepCap](./covers/DeepCap.png)
+
 ## Multi-agent Reinforcement Learning
 - [x] [Learning Individually Inferred Communication for Multi-Agent Cooperation](./agent)
   ![agent](./covers/agent.png)
 
-- [x] [DeepCap_Monocular Human Performance Capture Using Weak Supervision](./Deep)
-
-  ![DeepCap](./covers/DeepCap.png)
 
 ## Contact to me
 
