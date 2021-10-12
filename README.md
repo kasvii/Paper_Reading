@@ -16,9 +16,12 @@ The record of paper reading
 - [x] [DeepCap_Monocular Human Performance Capture Using Weak Supervision](./Deep)
   ![DeepCap](./covers/DeepCap.png)
 
+- [x] [DeepCap_Monocular Human Performance Capture Using Weak Supervision]
+
 ## Multi-agent Reinforcement Learning
-- [x] [Learning Individually Inferred Communication for Multi-Agent Cooperation](./agent)
-  ![agent](./covers/agent.png)
+
+- [x] [SMPL: A Skinned Multi-Person Linear Model](./SMPL)
+  ![agent](./covers/SMPL.png)
 
 
 ## Contact to me
