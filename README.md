@@ -27,8 +27,12 @@ The record of paper reading
 - [x] [VIBE: Video Inference for Human Body Pose and Shape Estimation](./VIBE)
   ![VIBE](./covers/VIBE.png)
 
+- [x] [Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video](./TCMR)
+
+  ![TCMR](./covers/TCMR.png)
 
 ## Multi-agent Reinforcement Learning
+
 - [x] [Learning Individually Inferred Communication for Multi-Agent Cooperation](./Agent)
   ![Agent](./covers/Agent.png)
 
