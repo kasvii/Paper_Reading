@@ -1,5 +1,7 @@
 # TCMR: Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video
 
+[TOC]
+
 ## 摘要
 
 尽管近期在单图像人体三维重建上有很多成功的工作，但是从视频中重建具有时间一致性和光滑三维运动的人体仍然具有很大的挑战性。由于强烈地依赖当前帧的静态特征，基于视频的方法难以解决单图像方法中的时序不一致问题。在这点上，我们提出了一个时序连续网格重建系统（TCMR），能够高效地关注于过去帧和未来帧的时序信息，不被静态特征所主导。我们的TCMR比之前基于视频的方法有更好的每帧三维位姿和形状。
@@ -104,9 +106,72 @@ L2损失函数：（1）预测值和真实值SMPL参数；（2）二维和三维
 
 用预训练好的[20]SPIN作为backbone和回归器。权重使用Adam优化器优化。人体区域用之前的工作裁剪出来，并调整到224*224。对对象进行遮挡，以增强数据。用ResNet从裁剪的图像中计算静态特征。
 
+## 实验
+
+### 实验指标
+
+#### 每帧准确性的指标：
+
+- mean per joint position error（MPJPE）、Procrustes-aligned MPJPE（PA-MPJPE）、mean per vertex position error（MPVPE）
+- 每个关节的平均位置误差，首先对齐根关节，然后测量估计值和真实值（mm）的误差
+- 程序对齐的MPJPE，作为每帧正确率的主要指标，因为它包括输出的尺度模糊性对误差的影响。
+
+#### 时序评估的指标
+
+- 加速度误差：计算每个关节的平均预测和真实加速度的误差（$mm/s^2$）
+
+### 消融实验
+
+#### 去除残差连接的有效性
+
+- 使用了和VIBE一样的baseline：只有一个双向GRU，编码所有输入帧的时序特征，静态和时序特征之间有残差连接。它可以预测所有输入帧的三维位姿和形状，但是没有使用运动鉴别器。
+
+  ![3](D:\WeChatfiles\WeChat Files\wxid_tapu2h0dxmvs22\FileStorage\File\2021-10\TCMR\3.png)
+
+- 去除残差连接明显降低了加速度误差，说明残差连接中静态误差的恒等映射阻碍了模型学习有意义的时序特征
+
+- 三维运动的时序一致性的提高也促进了每帧三维位姿的准确性。
+
+#### PoseForecast的有效性
+
+- 无论有残差连接如何，PoseForecast连续提高每帧和时序的指标。
+
+  ![4](./TCMR/4.png)
+
+- 保持时序特征和当前帧静态特征的无关性，能够提高时序一致性和运动平滑性
+
+- 使用不用的监督方式对结果的影响，用当前帧参数监督效果最好
+
+#### 和SOTA方法的对比
+
+- 和基于视频的方法比较
+
+  ![5](./TCMR/5.png)
+
+  ![6](./TCMR/6.png)
+
+  ![8](./TCMR/8.png)
+
+  ![9](./TCMR/9.png)
+
+- 和基于单帧图像和视频方法的比较
+
+  ![7](./TCMR/7.png)
+
+## 结论
+
+我们提出了从RGB视频中重建三维人体网格的TCMR模型。之前基于视频的工作由于强烈地依赖当前帧的静态特征，存在时序不一致的问题。我们通过移除静态特征和时序特征的残差连接，采用PoseForecast来预测过去帧和未来帧的时序特征，融合得到当前帧的时序特征。和其他基于视频的方法相比，TCMR提供了时序一致的三维运动和更准确的三维姿态估计。
+
 ## 数据集
 
+- 3DPW：Timo von Marcard, Roberto Henschel, Michael Black, Bodo Rosenhahn,  and Gerard Pons-Moll. Recovering accurate 3d human pose in the wild using imus and a moving camera. *ECCV*, 2018.
+- Human3.6M：Catalin Ionescu, Dragos Papava, Vlad Olaru, and Cristian Sminchisescu. Human3.6m: Large scale datasets and predictive methods for 3d human sensing in natural environments. *TPAMI*, 2014.
+- MPI-INF-3DHP：Dushyant Mehta, Helge Rhodin, Dan Casas, Pascal Fua, Oleksandr Sotnychenko, Weipeng Xu, and Christian Theobalt. Monocular 3d human pose estimation in the wild using improved cnn supervision. *3DV*, 2017. 
+- Insta Variety：Angjoo Kanazawa, Jason Y Zhang, Panna Felsen, and Jitendra Malik. Learning 3D human dynamics from video. *CVPR*, 2019. 
+- Penn Ation：Weiyu Zhang, Menglong Zhu, and Konstantinos G Derpanis. From actemes to action: A strongly-supervised representation for detailed action understanding. *ICCV*, 2013.
+- PoseTrack： Mykhaylo Andriluka, Umar Iqbal, Eldar Insafutdinov, Leonid Pishchulin, Anton Milan, Juergen Gall, and Bernt Schiele. Posetrack: A benchmark for human pose estimation and tracking. *CVPR*, 2018.
 
+3DPW是只有包括真实SMPL参数的数据集
 
 ## 关键词
 
@@ -171,6 +236,10 @@ neural autoregressive framework - 神经自回归框架
 global average pooling - 全局平均池化
 
 attention values - 注意值
+
+average filter - 平均过滤器
+
+spherical linear interpolation - 球面线性插值
 
 
 
