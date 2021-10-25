@@ -31,11 +31,14 @@ The record of paper reading
 
   ![TCMR](./covers/TCMR.png)
 
+- [x] [MEVA: 3D Human Motion Estimation via Motion Compression and Refinement](./MEVA)
+
+  ![MEVA](./covers/MEVA.png)
+
 ## Multi-agent Reinforcement Learning
 
 - [x] [Learning Individually Inferred Communication for Multi-Agent Cooperation](./Agent)
   ![Agent](./covers/Agent.png)
-
 
 
 ## Contact to me
