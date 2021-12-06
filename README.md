@@ -35,9 +35,9 @@ The record of paper reading
 
   ![MEVA](./covers/MEVA.png)
 
-- [x] [Shape as Points: A Differentiable Poisson Solver](./Shape as Points)(roughly)
+- [x] [Shape as Points: A Differentiable Poisson Solver](./Shape_as_Points)(roughly)
 
-  ![Shape as Points](./covers/Shape as Points.png)
+  ![Shape as Points](./covers/Shape_as_Points.png)
 
 ## Multi-agent Reinforcement Learning
 
