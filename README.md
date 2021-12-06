@@ -35,6 +35,10 @@ The record of paper reading
 
   ![MEVA](./covers/MEVA.png)
 
+- [x] [Shape as Points: A Differentiable Poisson Solver](./Shape as Points)(roughly)
+
+  ![Shape as Points](./covers/Shape as Points.png)
+
 ## Multi-agent Reinforcement Learning
 
 - [x] [Learning Individually Inferred Communication for Multi-Agent Cooperation](./Agent)
