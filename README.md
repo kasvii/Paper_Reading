@@ -39,6 +39,11 @@ The record of paper reading
 
   ![Shape as Points](./covers/Shape_as_Points.png)
 
+## Classical Networks
+
+- [x] [Transformer: Attention is All You Need](./Transformer)
+  <img src="./covers/Transformer.png" alt="Transformer" style="zoom: 25%;" />
+
 ## Multi-agent Reinforcement Learning
 
 - [x] [Learning Individually Inferred Communication for Multi-Agent Cooperation](./Agent)
