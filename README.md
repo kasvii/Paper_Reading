@@ -35,12 +35,25 @@ The record of paper reading
 
   ![MEVA](./covers/MEVA.png)
 
+- [x] [Mesh Graphormer](./Mesh_Graphormer)
+
+  ![Mesh_Graphormer](./covers/Mesh_Graphormer.png)
+
+- [x] [Pose2Mesh: Graph Convolutional Networkfor 3D Human Pose and Mesh Recovery from a 2D Human Pose](./Pose2Mesh)
+
+  ![Pose2Mesh](./covers/Pose2Mesh.png)
+  
 - [x] [Shape as Points: A Differentiable Poisson Solver](./Shape_as_Points)(roughly)
 
   ![Shape as Points](./covers/Shape_as_Points.png)
 
+
 ## Classical Networks
 
+- [x] [AlexNet: ImageNet Classifification with Deep Convolutional](./AlexNet)
+  
+  ![AlexNet](./covers/AlexNet.png)
+  
 - [x] [Transformer: Attention is All You Need](./Transformer)
   <img src="./covers/Transformer.png" alt="Transformer" style="zoom: 25%;" />
 
@@ -48,7 +61,6 @@ The record of paper reading
 
 - [x] [Learning Individually Inferred Communication for Multi-Agent Cooperation](./Agent)
   ![Agent](./covers/Agent.png)
-
 
 ## Contact to me
 
