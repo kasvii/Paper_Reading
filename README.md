@@ -42,6 +42,10 @@ The record of paper reading
 - [x] [Pose2Mesh: Graph Convolutional Networkfor 3D Human Pose and Mesh Recovery from a 2D Human Pose](./Pose2Mesh)
 
   ![Pose2Mesh](./covers/Pose2Mesh.png)
+
+- [x] [Convolutional Mesh Regression for Single-Image Human Shape Reconstruction](./GraphCMR)
+
+  ![GraphCNN](./covers/GraphCMR.png)
   
 - [x] [Shape as Points: A Differentiable Poisson Solver](./Shape_as_Points)(roughly)
 
