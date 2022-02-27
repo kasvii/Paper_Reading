@@ -46,7 +46,11 @@ The record of paper reading
 - [x] [Convolutional Mesh Regression for Single-Image Human Shape Reconstruction](./GraphCMR)
 
   ![GraphCNN](./covers/GraphCMR.png)
-  
+
+- [x] [HMR: End-to-end Recovery of Human Shape and Pose](./HMR)
+
+  ![HMR](./covers/HMR.png)
+
 - [x] [Shape as Points: A Differentiable Poisson Solver](./Shape_as_Points)(roughly)
 
   ![Shape as Points](./covers/Shape_as_Points.png)
