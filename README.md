@@ -50,6 +50,14 @@ The record of paper reading
 - [x] [HMR: End-to-end Recovery of Human Shape and Pose](./HMR)
 
   ![HMR](./covers/HMR.png)
+  
+- [x] [Human Body Model Fitting by Learned Gradient Descent](./LearnedGradientDescent)
+
+  ![LearnedGradientDescent](./covers/LearnedGradientDescent.png)
+  
+- [x] [Keypoint-aligned 3D Human Shape Recovery from A Single Image with Bilayer-Graph](./BiGraphBody)
+
+  ![BiGraphBody](./covers/BiGraphBody.png)
 
 - [x] [Shape as Points: A Differentiable Poisson Solver](./Shape_as_Points)(roughly)
 
