@@ -58,6 +58,10 @@ The record of paper reading
 - [x] [Keypoint-aligned 3D Human Shape Recovery from A Single Image with Bilayer-Graph](./BiGraphBody)
 
   ![BiGraphBody](./covers/BiGraphBody.png)
+  
+- [x] [Skeleton2Mesh：Kinematics Prior Injected Unsupervised Human Mesh Recovery](./Skeleton2Mesh)
+
+  ![Skeleton2Mesh](./covers/Skeleton2Mesh.png)
 
 - [x] [Shape as Points: A Differentiable Poisson Solver](./Shape_as_Points)(roughly)
 
