@@ -62,6 +62,10 @@ The record of paper reading
 - [x] [Skeleton2Mesh：Kinematics Prior Injected Unsupervised Human Mesh Recovery](./Skeleton2Mesh)
 
   ![Skeleton2Mesh](./covers/Skeleton2Mesh.png)
+  
+- [x] [HKMR: Hierarchical Kinematic Human Mesh Recovery](./HKMR)
+
+  ![HKMR](./covers/HKMR.png)
 
 - [x] [Shape as Points: A Differentiable Poisson Solver](./Shape_as_Points)(roughly)
 
