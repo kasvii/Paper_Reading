@@ -70,6 +70,10 @@ The record of paper reading
 - [x] [THUNDR: Transformer-based 3D HUmaN Reconstruction with Markers](./THUNDR)
 
   ![THUNDR](./covers/THUNDR.png)
+  
+- [x] [HoloPose: Holistic 3D Human Reconstruction In-The-Wild](./HoloPose)
+
+  ![HoloPose](./covers/HoloPose.png)
 
 - [x] [Shape as Points: A Differentiable Poisson Solver](./Shape_as_Points)(roughly)
 
