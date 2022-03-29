@@ -74,6 +74,10 @@ The record of paper reading
 - [x] [HoloPose: Holistic 3D Human Reconstruction In-The-Wild](./HoloPose)
 
   ![HoloPose](./covers/HoloPose.png)
+  
+- [x] [KAMA: 3D Keypoint Aware Body Mesh Articulation](./KAMA)
+
+  ![KAMA](./covers/KAMA.png)
 
 - [x] [Shape as Points: A Differentiable Poisson Solver](./Shape_as_Points)(roughly)
 
