@@ -23,18 +23,6 @@ The record of paper reading
 - [x] [SMPL: A Skinned Multi-Person Linear Model](./SMPL)
   ![agent](./covers/SMPL.png)
 
-
-- [x] [VIBE: Video Inference for Human Body Pose and Shape Estimation](./VIBE)
-  ![VIBE](./covers/VIBE.png)
-
-- [x] [TCMR: Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video](./TCMR)
-
-  ![TCMR](./covers/TCMR.png)
-
-- [x] [MEVA: 3D Human Motion Estimation via Motion Compression and Refinement](./MEVA)
-
-  ![MEVA](./covers/MEVA.png)
-
 - [x] [Mesh Graphormer](./Mesh_Graphormer)
 
   ![Mesh_Graphormer](./covers/Mesh_Graphormer.png)
@@ -83,6 +71,22 @@ The record of paper reading
 
   ![Shape as Points](./covers/Shape_as_Points.png)
 
+## Video-based 3D Human Mesh Reconstruction
+
+- [x] [VIBE: Video Inference for Human Body Pose and Shape Estimation](./VIBE)
+  ![VIBE](./covers/VIBE.png)
+
+- [x] [TCMR: Beyond Static Features for Temporally Consistent 3D Human Pose and Shape from a Video](./TCMR)
+
+  ![TCMR](./covers/TCMR.png)
+
+- [x] [MEVA: 3D Human Motion Estimation via Motion Compression and Refinement](./MEVA)
+
+  ![MEVA](./covers/MEVA.png)
+
+- [x] [MPS-Net: Capturing Humans in Motion: Temporal-Attentive 3D Human Pose and Shape](./MPS-Net)
+
+  ![MPS-Net](./covers/MPS-Net.png)
 
 ## Classical Networks
 
