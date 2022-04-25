@@ -97,6 +97,12 @@ The record of paper reading
 - [x] [Transformer: Attention is All You Need](./Transformer)
   <img src="./covers/Transformer.png" alt="Transformer" style="zoom: 25%;" />
 
+## Effective Blocks
+
+- [x] [SimAM: A Simple, Parameter-Free Attention Module for Convolutional Neural Networks](./SimAM)
+
+  ![SimAM](./covers/SimAM.png)
+  
 ## Multi-agent Reinforcement Learning
 
 - [x] [Learning Individually Inferred Communication for Multi-Agent Cooperation](./Agent)
