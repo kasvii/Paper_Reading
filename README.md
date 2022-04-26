@@ -66,6 +66,10 @@ The record of paper reading
 - [x] [KAMA: 3D Keypoint Aware Body Mesh Articulation](./KAMA)
 
   ![KAMA](./covers/KAMA.png)
+  
+- [x] [TUCH: On Self-Contact and Human Pose](./TUCH)
+
+  ![TUCH](./covers/TUCH.png)
 
 - [x] [Shape as Points: A Differentiable Poisson Solver](./Shape_as_Points)(roughly)
 
