@@ -77,6 +77,9 @@ The record of paper reading
 
 ## Video-based 3D Human Mesh Reconstruction
 
+- [x] [Learning 3D Human Dynamics from Video](./HumanDynamic)
+  ![HumanDynamic](./covers/humandynamic.png)
+
 - [x] [VIBE: Video Inference for Human Body Pose and Shape Estimation](./VIBE)
   ![VIBE](./covers/VIBE.png)
 
