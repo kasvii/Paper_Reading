@@ -43,10 +43,11 @@
 |       | [**Occluded human mesh recovery**](https://openaccess.thecvf.com/content/CVPR2022/html/Khirodkar_Occluded_Human_Mesh_Recovery_CVPR_2022_paper.html) | CVPR       |         |
 |       | [MUG: Multi-human Graph Network for 3D Mesh Reconstruction from 2D Pose](https://arxiv.org/abs/2205.12583) | Arxiv      |         |
 |       | [A Local Correspondence-aware Hybrid CNN-GCN Model for Single-image Human Body Reconstruction](https://ieeexplore.ieee.org/abstract/document/9787789/) | TMM        |         |
-|       | [A Local Correspondence-aware Hybrid CNN-GCN Model for Single-image Human Body Reconstruction](https://ieeexplore.ieee.org/abstract/document/9787789/) | Arxiv      |         |
 |       | [LASOR: Learning Accurate 3D Human Pose and Shape via Synthetic Occlusion-Aware Data and Neural Mesh Rendering](https://ieeexplore.ieee.org/abstract/document/9709705/) | TIP        |         |
 
-1. Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image
+### 2016
+
+1. **Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image**
 
    *ECCV, 2016* [[Paper\]](https://arxiv.org/abs/1607.08128) [[Code\]]()
 
@@ -56,7 +57,7 @@
        <br />
        <img src=".\paperlist\1.png" alt="1" style="zoom:100%;" />
 
-2. General Automatic Human Shape and Motion Capture Using Volumetric Contour Cues
+2. **General Automatic Human Shape and Motion Capture Using Volumetric Contour Cues**
 
    *ECCV, 2016* [[Paper\]](https://arxiv.org/abs/1607.08659) [[Code\]]()
 
@@ -65,8 +66,9 @@
        Markerless motion capture algorithms require a 3D body with properly personalized skeleton dimension and/or body shape and appearance to successfully track a person. Unfortunately, many tracking methods consider model personalization a different problem and use manual or semi-automatic model initialization, which greatly reduces applicability. In this paper, we propose a fully automatic algorithm that jointly creates a rigged actor model commonly used for animation - skeleton, volumetric shape, appearance, and optionally a body surface - and estimates the actor's motion from multi-view video input only. The approach is rigorously designed to work on footage of general outdoor scenes recorded with very few cameras and without background subtraction. Our method uses a new image formation model with analytic visibility and analytically differentiable alignment energy. For reconstruction, 3D body shape is approximated as Gaussian density field. For pose and shape estimation, we minimize a new edge-based alignment energy inspired by volume raycasting in an absorbing medium. We further propose a new statistical human body model that represents the body surface, volumetric Gaussian density, as well as variability in skeleton shape. Given any multi-view sequence, our method jointly optimizes the pose and shape parameters of this model fully automatically in a spatiotemporal way. 
        <br />
        <img src=".\paperlist\2.png" alt="2" style="zoom:100%;" />
+### 2017
 
-3. Unite the people: Closing the loop between 3d and 2d human representations
+1. **Unite the people: Closing the loop between 3d and 2d human representations**
 
    *CVPR, 2017* [[Paper\]](http://openaccess.thecvf.com/content_cvpr_2017/html/Lassner_Unite_the_People_CVPR_2017_paper.html) [[Code\]]()
 
@@ -76,7 +78,9 @@
        <br />
        <img src=".\paperlist\3.png" alt="3" style="zoom:100%;" />
 
-4. HMR: End-to-end recovery of human shape and pose
+### 2018
+
+1. **HMR: End-to-end recovery of human shape and pose**
 
    *CVPR, 2018* [[Paper\]](http://openaccess.thecvf.com/content_cvpr_2018/html/Kanazawa_End-to-End_Recovery_of_CVPR_2018_paper.html) [[Code\]]()
 
@@ -86,7 +90,7 @@
        <br />
        <img src=".\paperlist\4.png" alt="4" style="zoom:100%;" />
 
-5. Learning to estimate 3D human pose and shape from a single color image
+2. **Learning to estimate 3D human pose and shape from a single color image**
 
    *CVPR, 2018* [[Paper\]](http://openaccess.thecvf.com/content_cvpr_2018/html/Pavlakos_Learning_to_Estimate_CVPR_2018_paper.html) [[Code\]]()
 
@@ -96,7 +100,7 @@
        <br />
        <img src=".\paperlist\5.png" alt="5" style="zoom:100%;" />
 
-6. Densepose: Dense human pose estimation in the wild
+3. **Densepose: Dense human pose estimation in the wild**
 
    *CVPR, 2019* [[Paper\]](http://openaccess.thecvf.com/content_cvpr_2018/html/Guler_DensePose_Dense_Human_CVPR_2018_paper.html) [[Code\]](http://densepose.org)
 
@@ -106,7 +110,9 @@
        <br />
        <img src=".\paperlist\6.png" alt="6" style="zoom:100%;" />
 
-7. GraphCMR: Convolutional mesh regression for single-image human shape reconstruction
+### 2019
+
+1. **GraphCMR: Convolutional mesh regression for single-image human shape reconstruction**
 
    *CVPR, 2019* [[Paper\]](http://openaccess.thecvf.com/content_CVPR_2019/html/Kolotouros_Convolutional_Mesh_Regression_for_Single-Image_Human_Shape_Reconstruction_CVPR_2019_paper.html) [[Code\]]()
 
@@ -116,7 +122,7 @@
        <br />
        <img src=".\paperlist\7.png" alt="7" style="zoom:100%;" />
 
-8. Holopose: Holistic 3d human reconstruction in-the-wild
+2. **Holopose: Holistic 3d human reconstruction in-the-wild**
 
    *CVPR, 2019* [[Paper\]](http://openaccess.thecvf.com/content_CVPR_2019/html/Guler_HoloPose_Holistic_3D_Human_Reconstruction_In-The-Wild_CVPR_2019_paper.html) [[Code\]]()
 
@@ -126,7 +132,7 @@
        <br />
        <img src=".\paperlist\8.png" alt="8" style="zoom:100%;" />
 
-9. Learning 3d human dynamics from video
+3. **Learning 3d human dynamics from video**
 
    *CVPR, 2019* [[Paper\]](http://openaccess.thecvf.com/content_CVPR_2019/html/Kanazawa_Learning_3D_Human_Dynamics_From_Video_CVPR_2019_paper.html) [[Code\]]()
 
@@ -136,7 +142,9 @@
        <br />
        <img src=".\paperlist\9.png" alt="9" style="zoom:100%;" />
 
-10. Pose2Mesh: Graph Convolutional Network for 3D Human Pose and Mesh Recovery from a 2D Human Pose
+### 2020
+
+1. **Pose2Mesh: Graph Convolutional Network for 3D Human Pose and Mesh Recovery from a 2D Human Pose**
 
    *ECCV, 2020* [[Paper\]](https://arxiv.org/abs/2008.09047) [[Code\]](https://github.com/hongsukchoi/Pose2Mesh_RELEASE)
 
@@ -147,7 +155,7 @@
        <img src=".\paperlist\10_1.png" alt="10_1" style="zoom:100%;" />
        <img src=".\paperlist\10_2.png" alt="10_2" style="zoom:100%;" />
 
-11. Human Body Model Fitting by Learned Gradient Descent
+2. **Human Body Model Fitting by Learned Gradient Descent**
 
    *ECCV, 2020* [[Paper\]](https://arxiv.org/abs/2008.08474) [[Code\]]()
 
@@ -157,7 +165,7 @@
        <br />
        <img src=".\paperlist\11.png" alt="11" style="zoom:100%;" />
 
-12. Hierarchical Kinematic Human Mesh Recovery
+3. **Hierarchical Kinematic Human Mesh Recovery**
 
    *ECCV, 2020* [[Paper\]](https://arxiv.org/abs/2003.04232) [[Code\]]()
 
@@ -167,7 +175,7 @@
        <br />
        <img src=".\paperlist\12.png" alt="12" style="zoom:100%;" />
 
-13. VIBE: Video Inference for Human Body Pose and Shape Estimation
+4. **VIBE: Video Inference for Human Body Pose and Shape Estimation**
 
    *CVPR, 2020* [[Paper\]](https://openaccess.thecvf.com/content_CVPR_2020/html/Kocabas_VIBE_Video_Inference_for_Human_Body_Pose_and_Shape_Estimation_CVPR_2020_paper.html) [[Code\]](https://github.com/mkocabas/VIBE)
 
@@ -177,7 +185,7 @@
        <br />
        <img src=".\paperlist\13.png" alt="13" style="zoom:100%;" />
 
-14. MEVA: 3d human motion estimation via motion compression and refinement
+5. **MEVA: 3d human motion estimation via motion compression and refinement**
 
    *ACCV, 2020* [[Paper\]](https://openaccess.thecvf.com/content/ACCV2020/html/Luo_3D_Human_Motion_Estimation_via_Motion_Compression_and_Refinement_ACCV_2020_paper.html) [[Code\]]()
 
@@ -187,7 +195,7 @@
        <br />
        <img src=".\paperlist\14.png" alt="14" style="zoom:100%;" />
 
-15. Posenet3d: Learning temporally consistent 3d human pose via knowledge distillation
+6. **Posenet3d: Learning temporally consistent 3d human pose via knowledge distillation**
 
    *3DV, 2020* [[Paper\]](https://ieeexplore.ieee.org/abstract/document/9320338/) [[Code\]]()
 
@@ -197,7 +205,7 @@
        <br />
        <img src=".\paperlist\15.png" alt="15" style="zoom:100%;" />
 
-16. Synthetic training for accurate 3d human pose and shape estimation in the wild
+7. **Synthetic training for accurate 3d human pose and shape estimation in the wild**
 
    *BMVC, 2020* [[Paper\]](https://arxiv.org/abs/2009.10013) [[Code\]]()
 
@@ -208,7 +216,7 @@
        <img src=".\paperlist\17.png" alt="17" style="zoom:100%;" />
 
 
-17. Pose2pose: 3d positional pose-guided 3d rotational pose prediction for expressive 3d human pose and mesh estimation
+8. **Pose2pose: 3d positional pose-guided 3d rotational pose prediction for expressive 3d human pose and mesh estimation**
 
    *Arxiv, 2020* [[Paper\]](https://arxiv.org/abs/2011.11534) [[Code\]](https://github.com/mks0601/Hand4Whole_RELEASE)
 
@@ -218,7 +226,9 @@
        <br />
        <img src=".\paperlist\16.png" alt="16" style="zoom:100%;" />
 
-18. Human Performance Capture from Monocular Video in the Wild
+### 2021
+
+- **Human Performance Capture from Monocular Video in the Wild**
 
    *3DV, 2021* [[Paper\]](https://arxiv.org/abs/2111.14672) [[Code\]]()
 
@@ -227,7 +237,8 @@
        Capturing the dynamically deforming 3D shape of clothed human is essential for numerous applications, including VR/AR, autonomous driving, and human-computer interaction. Existing methods either require a highly specialized capturing setup, such as expensive multi-view imaging systems, or they lack robustness to challenging body poses. In this work, we propose a method capable of capturing the dynamic 3D human shape from a monocular video featuring challenging body poses, without any additional input. We first build a 3D template human model of the subject based on a learned regression model. We then track this template model's deformation under challenging body articulations based on 2D image observations. Our method outperforms state-of-the-art methods on an in-the-wild human video dataset 3DPW. Moreover, we demonstrate its efficacy in robustness and generalizability on videos from iPER datasets.
        <br />
        <img src=".\paperlist\18.png" alt="18" style="zoom:100%;" />
-19. KAMA: 3D Keypoint Aware Body Mesh Articulation
+
+- **KAMA: 3D Keypoint Aware Body Mesh Articulation**
 
    *3DV, 2021* [[Paper\]](https://arxiv.org/abs/2104.13502) [[Code\]]()
 
@@ -237,7 +248,7 @@
        <br />
        <img src=".\paperlist\19.png" alt="19" style="zoom:100%;" />
 
-20. Keypoint-aligned 3D Human Shape Recovery from A Single Imagewith Bilayer-Graph
+- **Keypoint-aligned 3D Human Shape Recovery from A Single Imagewith Bilayer-Graph**
 
    *3DV, 2021* [[Paper\]](https://merl.com/publications/docs/TR2021-143.pdf) [[Code\]]()
 
@@ -248,7 +259,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\20.png" alt="20" style="zoom:100%;" />
 
-21. Exemplar fine-tuning for 3d human model fitting towards in-the-wild 3d human pose estimation
+- **Exemplar fine-tuning for 3d human model fitting towards in-the-wild 3d human pose estimation**
 
    *3DV, 2021* [[Paper\]](https://ieeexplore.ieee.org/abstract/document/9665925/) [[Code\]]()
 
@@ -258,7 +269,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\21.png" alt="21" style="zoom:100%;" />
 
-22.Skeleton2Mesh: Kinematics Prior Injected Unsupervised Human Mesh Recovery
+- **Skeleton2Mesh: Kinematics Prior Injected Unsupervised Human Mesh Recovery**
 
    *ICCV, 2021* [[Paper\]](http://openaccess.thecvf.com/content/ICCV2021/html/Yu_Skeleton2Mesh_Kinematics_Prior_Injected_Unsupervised_Human_Mesh_Recovery_ICCV_2021_paper.html) [[Code\]]()
 
@@ -268,7 +279,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\22.png" alt="22" style="zoom:100%;" />
 
-23. Thundr: Transformer-based 3d human reconstruction with markers
+- **Thundr: Transformer-based 3d human reconstruction with markers**
 
    *ICCV, 2021* [[Paper\]](http://openaccess.thecvf.com/content/ICCV2021/html/Zanfir_THUNDR_Transformer-Based_3D_Human_Reconstruction_With_Markers_ICCV_2021_paper.html) [[Code\]]()
 
@@ -279,7 +290,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <img src=".\paperlist\23_1.png" alt="23_1" style="zoom:100%;" />
        <img src=".\paperlist\23_2.png" alt="23_2" style="zoom:100%;" />
 
-24. Uncertainty-aware human mesh recovery from video by learning part-based 3D dynamics
+- **Uncertainty-aware human mesh recovery from video by learning part-based 3D dynamics**
 
    *ICCV, 2021* [[Paper\]](http://openaccess.thecvf.com/content/ICCV2021/html/Lee_Uncertainty-Aware_Human_Mesh_Recovery_From_Video_by_Learning_Part-Based_3D_ICCV_2021_paper.html) [[Code\]]()
 
@@ -289,7 +300,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\24.png" alt="24" style="zoom:100%;" />
 
-25. Mesh graphormer
+- Mesh graphormer
 
    *ICCV, 2021* [[Paper\]](http://openaccess.thecvf.com/content/ICCV2021/html/Lin_Mesh_Graphormer_ICCV_2021_paper.html) [[Code\]]()
 
@@ -299,7 +310,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\25.png" alt="25" style="zoom:100%;" />
 
-26. Encoder-decoder with Multi-level Attention for 3D Human Shape and Pose Estimation
+- **Encoder-decoder with Multi-level Attention for 3D Human Shape and Pose Estimation**
 
    *ICCV, 2021* [[Paper\]](http://openaccess.thecvf.com/content/ICCV2021/html/Wan_Encoder-Decoder_With_Multi-Level_Attention_for_3D_Human_Shape_and_Pose_ICCV_2021_paper.html) [[Code\]]()
 
@@ -309,7 +320,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\26.png" alt="26" style="zoom:100%;" />
 
-27. Probabilistic modeling for human mesh recovery
+- **Probabilistic modeling for human mesh recovery**
 
    *ICCV, 2021* [[Paper\]](http://openaccess.thecvf.com/content/ICCV2021/html/Kolotouros_Probabilistic_Modeling_for_Human_Mesh_Recovery_ICCV_2021_paper.html) [[Code\]]()
 
@@ -319,7 +330,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\27.png" alt="27" style="zoom:100%;" />
 
-28. Hierarchical kinematic probability distributions for 3D human shape and pose estimation from images in the wild
+- **Hierarchical kinematic probability distributions for 3D human shape and pose estimation from images in the wild**
 
    *ICCV, 2021* [[Paper\]](http://openaccess.thecvf.com/content/ICCV2021/html/Sengupta_Hierarchical_Kinematic_Probability_Distributions_for_3D_Human_Shape_and_Pose_ICCV_2021_paper.html) [[Code\]]()
 
@@ -329,7 +340,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\28.png" alt="28" style="zoom:100%;" />
 
-29. PARE: Part attention regressor for 3D human body estimation
+- **PARE: Part attention regressor for 3D human body estimation**
 
    *ICCV, 2021* [[Paper\]](http://openaccess.thecvf.com/content/ICCV2021/html/Kocabas_PARE_Part_Attention_Regressor_for_3D_Human_Body_Estimation_ICCV_2021_paper.html) [[Code\]]()
 
@@ -339,7 +350,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\29.png" alt="29" style="zoom:100%;" />
 
-30. TUCH: On self-contact and human pose
+- **TUCH: On self-contact and human pose**
 
    *CVPR, 2021* [[Paper\]](http://openaccess.thecvf.com/content/CVPR2021/html/Muller_On_Self-Contact_and_Human_Pose_CVPR_2021_paper.html) [[Code\]]()
 
@@ -349,7 +360,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\30.png" alt="30" style="zoom:100%;" />
 
-31. TCMR: Beyond static features for temporally consistent 3d human pose and shape from a video
+- **TCMR: Beyond static features for temporally consistent 3d human pose and shape from a video**
 
    *CVPR, 2021* [[Paper\]](http://openaccess.thecvf.com/content/CVPR2021/html/Choi_Beyond_Static_Features_for_Temporally_Consistent_3D_Human_Pose_and_CVPR_2021_paper.html) [[Code\]]()
 
@@ -359,7 +370,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\31.png" alt="31" style="zoom:100%;" />
 
-32. Hybrik: A hybrid analytical-neural inverse kinematics solution for 3d human pose and shape estimation
+- **Hybrik: A hybrid analytical-neural inverse kinematics solution for 3d human pose and shape estimation**
 
    *CVPR, 2021* [[Paper\]](https://openaccess.thecvf.com/content/CVPR2021/html/Li_HybrIK_A_Hybrid_Analytical-Neural_Inverse_Kinematics_Solution_for_3D_Human_CVPR_2021_paper.html?ref=https://githubhelp.com) [[Code\]]()
 
@@ -370,7 +381,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <img src=".\paperlist\32_1.png" alt="32_1" style="zoom:100%;" />
        <img src=".\paperlist\32_2.png" alt="32_2" style="zoom:100%;" />
 
-33. Learning to regress bodies from images using differentiable semantic rendering
+- **Learning to regress bodies from images using differentiable semantic rendering**
 
    *ICCV, 2021* [[Paper\]](http://openaccess.thecvf.com/content/ICCV2021/html/Dwivedi_Learning_To_Regress_Bodies_From_Images_Using_Differentiable_Semantic_Rendering_ICCV_2021_paper.html) [[Code\]]()
 
@@ -381,7 +392,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <img src=".\paperlist\33.png" alt="33" style="zoom:100%;" />
        <img src=".\paperlist\33_2.png" alt="33" style="zoom:100%;" />
 
-34. A lightweight graph transformer network for human mesh reconstruction from 2d human pose
+- **A lightweight graph transformer network for human mesh reconstruction from 2d human pose**
 
    *Arxiv, 2021* [[Paper\]](https://arxiv.org/abs/2111.12696) [[Code\]]()
 
@@ -391,7 +402,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\34.png" alt="34" style="zoom:100%;" />
 
-35. Multi-initialization Optimization Network for Accurate 3D Human Pose and Shape Estimation
+- **Multi-initialization Optimization Network for Accurate 3D Human Pose and Shape Estimation**
 
    *MM, 2021* [[Paper\]](https://dl.acm.org/doi/abs/10.1145/3474085.3475355?casa_token=rVzWU4cff3YAAAAA:8WEd2OJe7kvq2u_8xNFNC6tiwbLD0bo0HsfbCFqaww0_bAblNhA9V591_8oq4pXezYhnay7wgW0) [[Code\]]()
 
@@ -401,7 +412,9 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\35.png" alt="35" style="zoom:100%;" />
 
-36. MPS-Net: Capturing Humans in Motion: Temporal-Attentive 3D Human Pose and Shape Estimation from Monocular Video
+### 2022
+
+- **MPS-Net: Capturing Humans in Motion: Temporal-Attentive 3D Human Pose and Shape Estimation from Monocular Video**
 
    *CVPR, 2022* [[Paper\]](https://openaccess.thecvf.com/content/CVPR2022/html/Wei_Capturing_Humans_in_Motion_Temporal-Attentive_3D_Human_Pose_and_Shape_CVPR_2022_paper.html) [[Code\]]()
 
@@ -413,7 +426,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <img src=".\paperlist\36_2.png" alt="36_2" style="zoom:100%;" />
        <img src=".\paperlist\36_3.png" alt="36_3" style="zoom:100%;" />
 
-37. Occluded human mesh recovery
+- **Occluded human mesh recovery**
 
    *CVPR, 2022* [[Paper\]](https://openaccess.thecvf.com/content/CVPR2022/html/Khirodkar_Occluded_Human_Mesh_Recovery_CVPR_2022_paper.html) [[Code\]]()
 
@@ -423,7 +436,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\37.png" alt="37" style="zoom:100%;" />
 
-38. MUG: Multi-human Graph Network for 3D Mesh Reconstruction from 2D Pose
+- **MUG: Multi-human Graph Network for 3D Mesh Reconstruction from 2D Pose**
 
    *Arxiv, 2022* [[Paper\]](https://arxiv.org/abs/2205.12583) [[Code\]]()
 
@@ -433,7 +446,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\38.png" alt="35" style="zoom:100%;" />
 
-39. A Local Correspondence-aware Hybrid CNN-GCN Model for Single-image Human Body Reconstruction
+- **A Local Correspondence-aware Hybrid CNN-GCN Model for Single-image Human Body Reconstruction**
 
    *TMM, 2021* [[Paper\]](https://ieeexplore.ieee.org/abstract/document/9787789/) [[Code\]]()
 
@@ -443,7 +456,7 @@ Recent approaches have explored using graph convolutional networks, and achieved
        <br />
        <img src=".\paperlist\39.png" alt="39" style="zoom:100%;" />
 
-40. LASOR: Learning Accurate 3D Human Pose and Shape via Synthetic Occlusion-Aware Data and Neural Mesh Rendering
+- **LASOR: Learning Accurate 3D Human Pose and Shape via Synthetic Occlusion-Aware Data and Neural Mesh Rendering**
 
    *TIP, 2022* [[Paper\]](https://ieeexplore.ieee.org/abstract/document/9709705/) [[Code\]]()
 
