@@ -94,6 +94,10 @@ The record of paper reading
 - [x] [MPS-Net: Capturing Humans in Motion: Temporal-Attentive 3D Human Pose and Shape](./MPS-Net)
 
   ![MPS-Net](./covers/MPS-Net.png)
+  
+- [x] [Uncertainty-Aware Human Mesh Recovery from Video by Learning Part-Based 3D Dynamics](./UncertintyPartBased)
+
+  ![UncertintyPartBased](./covers/UncertintyPartBased.png)
 
 ## Classical Networks
 

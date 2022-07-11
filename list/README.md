@@ -447,7 +447,7 @@
 
 - **A Local Correspondence-aware Hybrid CNN-GCN Model for Single-image Human Body Reconstruction**
 
-   *TMM, 2021* [[Paper\]](https://ieeexplore.ieee.org/abstract/document/9787789/) [[Code\]]()
+   *TMM, 2022* [[Paper\]](https://ieeexplore.ieee.org/abstract/document/9787789/) [[Code\]]()
 
    <details>
    <summary>Abstract</summary>
