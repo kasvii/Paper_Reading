@@ -98,6 +98,10 @@ The record of paper reading
 - [x] [Uncertainty-Aware Human Mesh Recovery from Video by Learning Part-Based 3D Dynamics](./UncertintyPartBased)
 
   ![UncertintyPartBased](./covers/UncertintyPartBased.png)
+  
+- [x] [SRNet: Improving Generalization in 3D Human Pose Estimation with a Split-and-Recombine Approach](./SRNet)
+
+  ![SRNet](./covers/srnet.png)
 
 ## Classical Networks
 
