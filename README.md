@@ -103,6 +103,11 @@ The record of paper reading
 
   ![SRNet](./covers/srnet.png)
 
+- [x] [Learning Skeletal Graph Neural Networks for Hard 3D Pose Estimation](./SkeletalGNN)
+
+  ![SkeletalGNN](./covers/SkeletalGNN.png)
+
+
 ## Classical Networks
 
 - [x] [AlexNet: ImageNet Classifification with Deep Convolutional](./AlexNet)
